@@ -42,23 +42,6 @@ A deep learning project that classifies pediatric chest X-ray images as **Pneumo
   - Test: 624 images
 
 ---
-
-## 🧱 Project Structure
-
-📦 chest_xray_classification/
-├── chest_xray/                     # Dataset (train/val/test folders)
-├── templates/
-│   └── index.html                  # Flask frontend
-├── static/uploads/                # Uploaded X-ray images
-├── app.py                         # Flask app
-├── vgg16_model.keras              # Saved VGG16 model
-├── custom_cnn_model.keras         # Saved custom CNN model
-├── requirements.txt               # Required Python packages
-└── README.md                      # You’re reading it :)
-
-
-
-
 ---
 
 ## 🧱 Project Structure
@@ -111,6 +94,11 @@ Place the chest_xray dataset (from Kaggle) in your project root.
 python app.py
 Visit http://127.0.0.1:5000 in your browser.
 ```
+
+
+https://github.com/user-attachments/assets/75eb3d95-e372-4a54-b6b6-708ce8dc967a
+
+
 ### 🚀 Future Enhancements
 	•	Grad-CAM heatmap integration for explainable AI
 	•	Multi-class classification: Viral vs Bacterial Pneumonia
